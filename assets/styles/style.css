@@ -146,3 +146,12 @@ body {
 
   transform: translateY(-1px);
 }
+
+/* Progress/Task List */
+.bg-orange {
+  background-color: #EBB10F;
+}
+
+.task-border {
+  border-left: 3px solid #F66436;
+}
