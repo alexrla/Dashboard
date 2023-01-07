@@ -29,7 +29,7 @@
                 Dashboard
               </a> -->
               <div class="mt-3 top-border bottom-border py-3">
-                <img src="./assets/img/admin.jpeg" alt="Usuário" width="50" class="rounded-circle me-3">
+                <img src="./assets/img/admin.jpeg" alt="Usuário" width="50" class="rounded-circle ms-1 me-3">
                 <a href="#" class="text-white text-decoration-none">Helen Smith</a>
               </div>
               <ul class="navbar-nav flex-column mt-4">
@@ -108,7 +108,7 @@
                       </a>
                     </li>
                     <li class="nav-item ms-md-auto">
-                      <a href="#" class="nav-link">
+                      <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#sign-out">
                         <i class="fa-solid fa-right-from-bracket fa-lg text-danger"></i>
                       </a>
                     </li>
@@ -120,6 +120,24 @@
         </div>
       </div>
     </nav>
+    <!-- Modal -->
+    <div class="modal fade" id="sign-out">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Deseja sair?</h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Clique em sair para sair da sua conta.</p>
+          </div>
+          <div class="modal-footer">
+            <div class="btn btn-success" data-bs-dismiss="modal">Continuar</div>
+            <div class="btn btn-danger" data-bs-dismiss="modal">Sair</div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/882bb34580.js" crossorigin="anonymous"></script>
     <!-- JavaScript -->
